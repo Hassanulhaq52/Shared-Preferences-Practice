@@ -8,10 +8,10 @@ class MyListScreen extends StatefulWidget {
   const MyListScreen({super.key});
 
   @override
-  _MyListScreenState createState() => _MyListScreenState();
+  MyListScreenState createState() => MyListScreenState();
 }
 
-class _MyListScreenState extends State<MyListScreen> {
+class MyListScreenState extends State<MyListScreen> {
   List<MyModel> _myList = [];
   String _name = '';
   int _age = 0;
